@@ -1,0 +1,110 @@
+object Form1: TForm1
+  Left = 257
+  Height = 416
+  Top = 122
+  Width = 753
+  Caption = 'Form1'
+  ClientHeight = 416
+  ClientWidth = 753
+  OnCreate = FormCreate
+  LCLVersion = '3.2.0.0'
+  object Label1: TLabel
+    Left = 41
+    Height = 17
+    Top = 84
+    Width = 35
+    Caption = 'Nama'
+    Font.Height = -13
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 40
+    Height = 17
+    Top = 120
+    Width = 26
+    Caption = 'Nilai'
+    Font.Height = -13
+    ParentFont = False
+  end
+  object edtNama: TEdit
+    Left = 96
+    Height = 23
+    Top = 84
+    Width = 176
+    TabOrder = 0
+  end
+  object edtNilai: TEdit
+    Left = 96
+    Height = 23
+    Top = 120
+    Width = 176
+    TabOrder = 1
+  end
+  object btnHitung: TButton
+    Left = 72
+    Height = 26
+    Top = 176
+    Width = 80
+    Caption = 'Hitung Nilai'
+    TabOrder = 2
+    OnClick = btnHitungClick
+  end
+  object Panel1: TPanel
+    Left = 363
+    Height = 402
+    Top = 1
+    Width = 248
+    BevelColor = clNone
+    ClientHeight = 402
+    ClientWidth = 248
+    Color = clBackground
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 3
+    OnClick = Panel1Click
+    object Label3: TLabel
+      Left = 13
+      Height = 21
+      Top = 15
+      Width = 124
+      Caption = ' Status Kelulusan: '
+      Color = clNone
+      Font.Color = clHighlightText
+      Font.Height = -16
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label4: TLabel
+      Left = 16
+      Height = 1
+      Top = 40
+      Width = 1
+      Font.Color = clGradientActiveCaption
+      Font.Height = -20
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object Label5: TLabel
+      Left = 13
+      Height = 21
+      Top = 80
+      Width = 53
+      Caption = ' Grade: '
+      Color = clNone
+      Font.Color = clHighlightText
+      Font.Height = -16
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label6: TLabel
+      Left = 72
+      Height = 1
+      Top = 136
+      Width = 1
+      Color = clBackground
+      Font.Height = -133
+      ParentColor = False
+      ParentFont = False
+    end
+  end
+end
